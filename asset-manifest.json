@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "uncleabbey.github.io/teamwork-frontend/static/css/main.a5540d75.chunk.css",
+    "main.js": "uncleabbey.github.io/teamwork-frontend/static/js/main.ffff4179.chunk.js",
+    "main.js.map": "uncleabbey.github.io/teamwork-frontend/static/js/main.ffff4179.chunk.js.map",
+    "runtime-main.js": "uncleabbey.github.io/teamwork-frontend/static/js/runtime-main.f3fbd74c.js",
+    "runtime-main.js.map": "uncleabbey.github.io/teamwork-frontend/static/js/runtime-main.f3fbd74c.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "uncleabbey.github.io/teamwork-frontend/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.bf2ebe16.chunk.js": "uncleabbey.github.io/teamwork-frontend/static/js/2.bf2ebe16.chunk.js",
+    "static/js/2.bf2ebe16.chunk.js.map": "uncleabbey.github.io/teamwork-frontend/static/js/2.bf2ebe16.chunk.js.map",
+    "index.html": "uncleabbey.github.io/teamwork-frontend/index.html",
+    "precache-manifest.9eca8fc09728112df47165f6732e3ef7.js": "uncleabbey.github.io/teamwork-frontend/precache-manifest.9eca8fc09728112df47165f6732e3ef7.js",
+    "service-worker.js": "uncleabbey.github.io/teamwork-frontend/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "uncleabbey.github.io/teamwork-frontend/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.a5540d75.chunk.css.map": "uncleabbey.github.io/teamwork-frontend/static/css/main.a5540d75.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3fbd74c.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.bf2ebe16.chunk.js",
+    "static/css/main.a5540d75.chunk.css",
+    "static/js/main.ffff4179.chunk.js"
+  ]
+}
