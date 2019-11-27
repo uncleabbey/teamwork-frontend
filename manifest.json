@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Teamwork",
+  "name": "An employee social media",
   "icons": [
     {
       "src": "favicon.ico",
