@@ -30,7 +30,7 @@ const CreateArticle = props => {
       article: inputs.article,
       tags: inputs.tags
     };
-    const url = "https://abbey-teamwork-backend.herokuapp.com/api/v1/articles";
+    const url = `${process.env.REACT_APP_BASEURL}articles`;
     try {
       const response = await fetch(url, {
         method: 'POST',
