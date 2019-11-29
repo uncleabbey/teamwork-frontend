@@ -16,7 +16,7 @@ const Feed = () => {
     setLoading(true);
     const makeFetch = async () => {
       const res = await fetch(
-        `https://abbey-teamwork-backend.herokuapp.com/api/v1/feed?currentPage=${currentPage}&pageSize=${pageSize}`,
+        `${process.env.REACT_APP_BASEURL}feed?currentPage=${currentPage}&pageSize=${pageSize}`,
         {
           headers: {
             authorization: `Bearer ${localStorage.getItem('token')}`
@@ -38,6 +38,7 @@ const Feed = () => {
       <div className="pt-3 pb-3"> 
         <NavLink to={'/post-gif'}><button className="btn btn-primary">Create Gifs</button> </NavLink>
         <NavLink to={'/create-article'}><button className="btn btn-primary ml-3">Create Articles</button> </NavLink>
+        <NavLink to={'/search'}><button className="btn btn-info ml-3">Search</button> </NavLink>
       </div>
       <ul className="list-group mb-4">
         {loading ? (

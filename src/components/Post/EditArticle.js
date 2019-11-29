@@ -15,7 +15,7 @@ const EditArticle = (props) => {
 
 useEffect(() => {
     setLoading(true);
-    const url = `https://abbey-teamwork-backend.herokuapp.com/api/v1/articles/${props.match.params.id}`;
+    const url = `${process.env.REACT_APP_BASEURL}articles/${props.match.params.id}`;
     const fetchData = async () => {
       try {
         const response = await fetch(url, {
@@ -59,7 +59,7 @@ useEffect(() => {
       article: inputs.article,
       tags: inputs.tags
     };
-    const url = `https://abbey-teamwork-backend.herokuapp.com/api/v1/articles/${props.match.params.id}`
+    const url = `${process.env.REACT_APP_BASEURL}articles/${props.match.params.id}`
     try {
       const response = await fetch(url, {
         method: 'PATCH',

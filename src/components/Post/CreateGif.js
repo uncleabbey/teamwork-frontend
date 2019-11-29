@@ -17,7 +17,7 @@ const CreateGif = props => {
   }
   const handleSubmit = e => {
     e.preventDefault();
-    const url = `https://abbey-teamwork-backend.herokuapp.com/api/v1/gifs`;
+    const url = `${process.env.REACT_APP_BASEURL}gifs`;
     const formData = new FormData();
     formData.append('title', inputs.title);
     formData.append('imageUrl', inputs.file);

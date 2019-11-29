@@ -12,6 +12,8 @@ import OneGif from '../components/Get/OneGif';
 import Dashboard from '../components/Admin/Dashboard';
 import Flagged from './../components/Admin/Flagged';
 import Feed from './../components/Feed/Feed';
+import SearchByTags from '../components/Feed/SearchByTags';
+import GetArticlesByTags from './../components/Feed/GetTags';
 
 
 
@@ -30,6 +32,8 @@ const Main = () => {
         <Route exact path={'/article/:id'} component={OneArticle} />
         <Route exact path={'/gif/:id'} component={OneGif} />
         <Route exact path={'/flag'} component={Flagged} />
+        <Route exact path={'/search'} component={SearchByTags} />
+        <Route exact path={'/tags/:tag'} component={GetArticlesByTags} />
         <Route component={Error}/>
       </Switch>
     </div>
